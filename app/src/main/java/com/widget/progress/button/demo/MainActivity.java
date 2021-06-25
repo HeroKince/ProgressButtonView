@@ -1,14 +1,11 @@
-package com.widget.progress.button;
+package com.widget.progress.button.demo;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-/**
- * https://github.com/livesun/GradientTextView
- * https://github.com/beiliubei/ProgressTextView
- * https://medium.com/@kanekishiba/text-blending-on-android-bb21ab1cf8aa
- */
+import com.widget.progress.button.ProgressTextView;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -19,4 +16,5 @@ public class MainActivity extends AppCompatActivity {
         final ProgressTextView textView = findViewById(R.id.progress_textView);
         textView.setCurrentProgress(0.6f);
     }
+
 }
