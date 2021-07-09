@@ -25,7 +25,7 @@ allprojects {
   
 ```
   dependencies {
-	        implementation 'com.github.Geekince:ProgressButtonView:Tag'
+	        implementation 'com.github.Geekince:ProgressButtonView:1.0.0'
 	}
 ```
 
